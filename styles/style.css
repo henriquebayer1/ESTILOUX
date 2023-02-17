@@ -1,1 +1,9 @@
-body {background-color: darkgray;}
+body {font-family: sans-serif;
+color: grey;}
+
+
+header {background-color: grey;}
+
+header a {color: red;}
+
+header nav a {color: white;}
