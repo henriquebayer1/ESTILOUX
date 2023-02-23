@@ -1,9 +1,45 @@
-body {font-family: sans-serif;
-color: grey;}
+/* Reset de propriedades */
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {font-family: 'Quicksand', sans-serif;
+color: grey;
+background-image:url();}
 
 
-header {background-color: grey;}
 
 header a {color: red;}
 
+header nav {border: 2px solid white;}
 header nav a {color: white;}
+
+#imagemlapis {width: 65%;}
+
+
+/* Cabeçalho */
+
+header {background-color: gray;}
+
+.header-flex {display: flex;
+justify-content: space-between;}
+
+.container-grid {width: 80%;
+margin: 0 auto;
+background-color: purple;}
+
+header h1 {color: white;
+font-weight: 300;
+border: 2px solid white;}
+
+header h1 #logoux {font-style: italic;
+font-weight: 600;
+margin-left: 10px;}
+
+/* 
+ header h2 {color: white;
+border: 1px solid red;
+width: 80px;
+height: 30px;
+margin-top: 20px;
+}  */
